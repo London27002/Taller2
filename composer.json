@@ -1,0 +1,19 @@
+{
+    "name": "london/empleados",
+    "autoload": {
+        "psr-4": {
+            "Empleados\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "London27002",
+            "email": "juan.londono27002@ucaldas.edu.co"
+        }
+    ],
+    "require": {
+        "swiftmailer/swiftmailer": "^6.3",
+        "mpdf/mpdf": "^6.1",
+        "tecnickcom/tcpdf": "^6.7"
+    }
+}
